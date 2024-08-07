@@ -27,7 +27,7 @@ result = np.random.randn(10)
 result = np.random.randint(10,50,size=(3,5))
 
 # 10- Üretilen matrisin satır ve sütun sayıları toplamlarını hesaplayınız ?
-satir,sütun = result.sum(axis=0), result.sum(axis=1) 
+sütun,satir = result.sum(axis=0), result.sum(axis=1) 
 # print(result, satir, sütun)
 
 # 11- Üretilen matrisin en büyük, en küçük ve ortalaması nedir ?
